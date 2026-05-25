@@ -1,0 +1,29 @@
+{
+  "splits": {
+    "train_size": 4024,
+    "val_size": 992,
+    "test_size": 1008,
+    "test_base_rate": 0.5416666666666666
+  },
+  "baseline": {
+    "accuracy": 0.5238095238095238,
+    "auc": 0.5314764600478886,
+    "best_iteration": 110
+  },
+  "augmented": {
+    "accuracy": 0.5257936507936508,
+    "auc": 0.5328798185941044,
+    "best_iteration": 104
+  },
+  "delta": {
+    "accuracy": 0.001984126984126977,
+    "auc": 0.0014033585462157605
+  },
+  "mcnemar": {
+    "b": 122,
+    "c": 124,
+    "statistic": 0.0040650406504065045,
+    "p_value": 0.9491631830508425
+  },
+  "sentiment_features_in_top10": 2
+}
